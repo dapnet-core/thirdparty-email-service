@@ -1,5 +1,7 @@
 #!/usr/bin/env python
 import pika
+# Example taken from https://pika.readthedocs.io/en/stable/modules/parameters.html
+
 credentials = pika.PlainCredentials('brandmeisterclient1', 'test1234')
 connection = pika.BlockingConnection(
     pika.ConnectionParameters(host='dapnetdc2.db0sda.ampr.org', credentials=credentials))
