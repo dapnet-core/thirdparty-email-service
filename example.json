@@ -1,0 +1,18 @@
+{
+	"id": "id_example",
+	"protcol": "pocsag",
+	"priority": 2,
+	"expires_on": "2019-08-29T20:07:58.431121Z",
+	"origin": "dh3wr",
+	"message": {
+		"ric": 12345,
+		"function": 2,
+		"type": "alphanum",
+		"speed": 1200,
+		"data": "This is a test message"
+	},
+	"thirdparty_recipients": [
+		"ralf@mail.com",
+		"dh3wr@mail.de"
+	]
+}
